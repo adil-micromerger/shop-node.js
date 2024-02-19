@@ -24,4 +24,5 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
-app.listen(3000, '192.168.1.35');
+// app.listen(3000, '192.168.1.35');
+app.listen(3000, '192.168.1.29');
