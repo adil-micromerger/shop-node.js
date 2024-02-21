@@ -18,7 +18,7 @@ module.exports = class Cart {
       });
       const existingProduct = cart.products[existingProductIndex];
       let UpdatedProduct;
-      if (existingProductIndex) {
+      if (existingProduct) {
         UpdatedProduct = { ...existingProduct };
         UpdatedProduct.qty = UpdatedProduct.qty + 1;
         cart.products = [...cart.products];
